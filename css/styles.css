@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    width: 100%;  /* 이미지가 컨테이너의 너비에 맞게 조정됩니다. */
+    height: auto; /* 이미지의 비율이 유지됩니다. */
+    display: block; /* 불필요한 공간을 제거합니다. */
+}
